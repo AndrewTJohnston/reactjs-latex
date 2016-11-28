@@ -1,0 +1,32 @@
+{
+  "name": "thought-cohort-analysis",
+  "version": "1.0.0",
+  "description": "Pending",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --content-base ."
+  },
+  "author": "Andrew T. Johnston",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewtjohnston/thought-cohort-analysis"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^4.3.0",
+    "json-loader": "^0.5.4",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "raw-loader": "0.5.1",
+    "katex":"^0.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "http-server": "^0.9.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
